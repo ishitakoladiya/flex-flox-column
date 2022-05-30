@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+	    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	    <title></title>
+		
+		<style type="text/css">
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: verdana;
+      }
+
+      .main-container {
+        border: 4px solid #826a98;
+        display: flex; /* block level flex container */
+        
+        /* basic or normal way for row wrap */
+        /* flex-direction: row; */
+        /* flex-wrap: wrap; */
+        /* height: 300px; */
+
+        /* latest way to write and use flex-flow, instead of flex-direction and flex-wrap */
+        height: 200px;
+        /* flex-flow: column wrap; */
+        /* flex-flow: column-reverse wrap; */
+        flex-flow: column-reverse wrap-reverse;
+      }
+
+      .item {
+        color: #ffffff;
+        font-size: 1rem;
+        padding: 0.75rem;
+        text-align: center;
+      }
+
+      .item-1 {
+        background-color:lightblue;
+      }
+
+      .item-2 {
+        background-color:pink;
+      }
+
+      .item-3 {
+        background-color:lightgreen;
+      }
+
+      .item-4 {
+        background-color:purple;
+      }
+
+      .item-5 {
+        background-color:purple;
+      }
+      
+      .item-6 {
+        background-color:lightgreen;
+      }
+
+      .item-7 {
+        background-color:pink;
+      }
+
+      .item-8 {
+        background-color:lightblue;
+      }
+
+      .item-9 {
+        background-color:yellow;
+      }
+      
+      .item-10 {
+        background-color:black;
+      }
+
+    </style>
+	</head>
+	<body>
+	  <div class="main-container">
+        <div class="item item-1"><marquee>EAGLE</marquee></div>
+        <div class="item item-2"><marquee>PEACOCK</marquee></div>
+        <div class="item item-3"><marquee>DUCK</marquee></div>
+        <div class="item item-4"><marquee>SWAN</marquee></div>
+        <div class="item item-5"><marquee>TURKEY</marquee></div>
+        <div class="item item-6"><marquee>PENGUIN</marquee></div>
+        <div class="item item-7"><marquee>PELICAN</marquee></div>
+        <div class="item item-8"><marquee>HORNBILL</marquee></div>
+        <div class="item item-9"><marquee>PARROT</marquee></div>
+        <div class="item item-10"><marquee>CROW</marquee></div>
+      </div>
+	</body>
+</html>
